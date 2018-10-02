@@ -1,0 +1,396 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'Plain Medium';
+    src: url('fonts/Plain Medium.woff2') format('woff2'),
+         url('fonts/Plain Medium.woff') format('woff');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Plain Medium';
+    font-size: 20px;
+}
+img {
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+select {
+	font-family: 'Plain Medium';
+    font-size: 20px;
+	min-width: 230px;
+	text-align: §§
+    height: 20px;
+    vertical-align: 2px;
+    padding: 3px;
+    margin-left: 2px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    -moz-box-shadow: 0;
+    box-shadow: 0;
+    background: transparent;
+    color:#000;
+    border: 0px solid black;
+	border-bottom: 2px solid black;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+
+
+
+.semaine {
+
+	top: 0;
+	left: 0;
+
+	position: absolute;
+	margin-top: 4%;
+    margin-left: 10%;
+	width: 80%;
+	opacity: 0.75;
+    filter:alpha(opacity=75);
+    -moz-opacity:0.75;
+}
+
+.semaine.horaire {
+	margin-left: 2.3%;
+}
+
+.jour {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin: -3.1px;
+}
+
+.heure {
+	width: 100%;
+	height: 2.3vh;
+	color: transparent;
+	text-align: center;
+}
+.semaine.horaire .heure {
+	color: black;
+	margin-left: -20px;
+}
+.semaine.grille .heure {
+	border: 2px solid black;
+}
+
+.affiche-l-element {
+	color: black;
+}
+
+
+
+.heure:hover {
+	background-color: transparent;
+	color: black;
+	border: 2px solid black;
+}
+.vide:hover {
+	background-color: transparent;
+	border: 0;
+}
+
+.une {
+	height: 2.3vh;
+}
+
+.deux {
+	height: 4.6vh;
+}
+
+.trois {
+	height: 6.9vh;
+}
+
+.quatre {
+	height: 9.2vh;
+}
+
+.cinq {
+	height: 11.5vh;
+}
+
+.six {
+	height: 13.8vh;
+}
+
+.sept {
+	height: 16.1vh;
+}
+
+.huit {
+	height: 18.4vh;
+}
+
+.neuf {
+	height: 20.7vh;
+}
+
+.dix {
+	height: 23vh;
+}
+
+.onze {
+	height: 25.3vh;
+}
+
+.douze {
+	height: 27.6vh;
+}
+
+.treize {
+	height: 29.9vh;
+}
+
+.quatorze {
+	height: 32.2vh;
+}
+
+.quinze {
+	height: 34.5vh;
+}
+
+.seize {
+	height: 36.8vh;
+}
+
+.dixsept {
+	height: 39.1vh;
+}
+
+.dixhuit {
+	height: 41.4vh;
+}
+
+.dixneuf {
+	height: 43.7vh;
+}
+
+.vingt {
+	height: 46vh;
+}
+
+.vingtetun {
+	height: 48.3vh;
+}
+
+.vingtdeux {
+	height: 50.6vh;
+}
+
+.vingttrois {
+	height: 52.9vh;
+}
+
+.vingtquatre {
+	height: 55.2vh;
+}
+
+.vingtcinq {
+	height: 57.5vh;
+}
+
+.vingtsix {
+	height: 59.8vh;
+}
+
+.vingtsept {
+	height: 62.1vh;
+}
+
+.vingthuit {
+	height: 64.4vh;
+}
+
+.vingtneuf {
+	height: 66.7vh;
+}
+
+.trente {
+	height: 69vh;
+}
+
+.trenteetun {
+	height: 71.3vh;
+}
+
+.trentedeux {
+	height: 73.6vh;
+}
+
+.trentetrois {
+	height: 75.9vh;
+}
+
+.trentequatre {
+	height: 78.2vh;
+}
+
+.trentecinq {
+	height: 80.5vh;
+}
+
+.trentesix {
+	height: 82.8vh;
+}
+
+.trentesept {
+	height: 85.1vh;
+}
+
+.magenta {
+	background-color: #ff0066;
+}
+
+.bleu {
+	background-color: #0066ff;
+}
+
+.orange {
+	background-color: #ff751a;
+}
+
+.vert {
+	background-color: #3DAF7E;
+}
+
+.rose {
+	background-color: #ff6666;
+}
+
+.lavande {
+	background-color: #c6c2f0;
+}
+
+.vertdeux {
+	background-color: #32714d;
+}
+
+.vide {
+	background-color: transparent;
+}
+
+
+
+
+
+#CV361, #ID461, .ID, .Creation, .Preapprentissage, .Services, .ID461, .CV361, .PA142, .Economat, .Pret-Materiel, .Secretariat, .Service-Info, .horaire, .grille, .comparer-horaires {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+	.print-only {
+        display: none;
+    }
+	.menu {
+		width: 30px;
+		height: 100%;
+		border: 0px solid black;
+		border-right: 2px solid black;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.menu-text {
+		margin-top: 0%;
+		margin-left: 10%;
+		margin-bottom: 10%;
+		display: none;
+	}
+	.plus {
+	margin-left: 7px;
+	}
+	.moins {
+		display: none;
+	}
+	.droite {
+		position: fixed;
+		right: 0;
+		top: 0;
+		margin-right: 10%;
+		display: inline-block;
+	}
+
+}
+
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+	.screen-only {
+		display: none;
+	}
+	.menu, .droite {
+		display: none;
+	}
+	.titre-classe {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		font-family: 'Plain Medium';
+		font-size: 300px;
+}
+
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

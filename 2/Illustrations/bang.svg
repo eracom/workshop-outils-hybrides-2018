@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148mm" height="210mm" viewBox="0 0 419.53 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #141412;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" y="-614.32" width="419.16" height="594.2"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="879.06" y="-615.28" width="420.63" height="595.28"/>
+    </clipPath>
+  </defs>
+  <title>Plan de travail 15</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g class="cls-2">
+      <polygon class="cls-3" points="171.48 -71.83 184.57 -78.43 189.93 9.82 167.28 1.52 171.48 -71.83"/>
+    </g>
+    <g class="cls-4">
+      <circle class="cls-3" cx="441.15" cy="18.74" r="33.94" transform="translate(3.83 79.71) rotate(-10.37)"/>
+    </g>
+    <polygon class="cls-3" points="308.02 359.71 402.56 356.01 322.85 331.51 384.02 306.88 336.75 293.44 397.92 240.15 296.57 266.6 397.92 163.21 313.58 186.38 371.04 47.35 236.65 198.44 228.3 13.98 183.75 218.28 153.9 175.87 53.12 46.42 130.05 206.78 51.2 130.14 103.17 240.15 16.04 298.54 136.54 322.71 8.63 419.04 119.86 389.38 12.34 572.9 170.84 471.87 176.27 537.26 207.05 488.53 246.84 560.85 259.82 457.96 393.29 564.56 310.8 429.23 397.92 472.8 312.19 392.78 410.9 422.74 308.02 359.71"/>
+  </g>
+</svg>

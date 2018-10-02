@@ -1,0 +1,113 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: center;
+    padding: center;
+
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('fonts/Bangers/Bangers-Regular.ttf') format('woff2'),
+         url('fonts/Permanent_Marker/PermanentMarker-Regular.ttf') format('woff');
+    font-weight: normal;
+}
+
+body {
+	background-color: white;
+}
+
+
+p.titre {
+    font-family: 'Permanent Marker';
+    font-size: 60px;
+    color: pink;
+    text-align: center;
+    text-decoration: none;
+  }  
+
+.traits-coupe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.canvas {
+    border: 2px solid #BEBEBE;
+    position: absolute;
+    width: 630px;/*430px;*/
+    height: 850px;/*595px;*/
+    margin-top: 50vh;
+    top: -400px;
+    left: 50px;
+    background-size: 100%;
+}
+.zone-travail {
+    border: 2px solid #BEBEBE;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1800px;
+    height: 850px;
+}
+.outils {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 700px;
+}
+
+
+
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+/*@media screen and (min-width: 480px) {
+
+}*/
+/* ÉCRAN (VALEURS MAXIMUM) */
+/*@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}*/
+}
+
+/* IMPRESSION */
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+    a {
+        color: black;
+    }
+	.canvas {
+        overflow: hidden;
+    }
+	.titre {
+		display: none;
+	}
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

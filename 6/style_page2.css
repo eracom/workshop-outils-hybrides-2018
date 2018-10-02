@@ -1,0 +1,145 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+
+@font-face {
+    font-family: 'vtf_gulaxregular';
+    src: url('fonts/gulax-webfont.woff2') format('woff2'),
+         url('fonts/gulax-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'vtf_gulaxregular';
+    padding: 10px;
+    background-color: #000000;
+    cursor: url("images/curseurfacade.svg"), pointer;
+
+}
+
+cursor{
+    column-rule-width: 11px;
+}
+
+a { font-size: 20px;
+    margin-top: 150px;
+    color: #FACADE;
+    cursor: url("images/curseurfacade.svg"), pointer;
+    width: 10%;
+}
+
+p { color: #FACADE;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 0;
+}
+
+
+button { color: #FACADE;
+        width: 0px;
+
+}
+div {margin-top: 190px;}
+
+div.screen-only{
+    margin-left: 70px;
+    width: 30%;
+    margin-top: 0px;
+}
+#theLogo{
+    height:200px;
+    margin-bottom: 50px;
+    font-family: 'vtf_gulaxregular';
+}
+
+div.screen-only p{
+    margin-bottom: 0.5em;
+}
+
+.titre {
+    font-size: 30px
+}
+
+
+.traits {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.canvas {
+    border: 1px solid white;
+    position: absolute;
+    width: 430px;
+    height: 600px;
+    margin-top: 44vh;
+    top: -200px;
+    margin-left: 50%;
+    /*left: -215px;*/
+    background-color: #000000;
+    overflow: hidden;
+
+}
+.random img {
+    display: none;
+  position: absolute;
+}
+
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: blue;
+    }
+    .screen-only {
+        display: none;
+    }
+    a {
+        color: black;
+    }
+    .canvas {
+        left: -215px;
+        overflow: hidden;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

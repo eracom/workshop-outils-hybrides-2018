@@ -1,0 +1,24 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.863mm" height="53.863mm" viewBox="0 0 152.682 152.683">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #be8a6d;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-154.163 -467.463)">
+      <rect class="cls-1" x="154.163" y="467.463" width="152.683" height="152.683"/>
+    </clipPath>
+  </defs>
+  <title>11</title>
+  <g class="cls-2">
+    <path class="cls-3" d="M230.5,620.146A76.341,76.341,0,1,0,154.163,543.8,76.341,76.341,0,0,0,230.5,620.146" transform="translate(-154.163 -467.463)"/>
+  </g>
+</svg>

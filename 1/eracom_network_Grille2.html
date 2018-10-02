@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html dir="ltr" class="sid-plesk" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>ERACOM Network</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="eracom_network_Grille2.css">
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
+</head>
+<body>
+
+
+
+        <div class="droite">
+			<select>
+				<option value="Graphisme">classe</option>
+			</select>
+			<select class="select-classe-Graphisme" id="Graphisme" style="display: inline-block">
+				<option value="GR451">GR451</option>
+				<option value="CV361">CV361</option>
+	 			<option value="ID461">ID461</option>
+			</select>
+
+		</div>
+
+		<div class="menu">
+			<div class="plus">+</div>
+			<div class="moins">-</div>
+			<div class="menu-text">
+				<u>filtres</u>
+				<br>
+				<br>
+				<span class="click-horaire">+ horaires</span><br>
+				<span class="click-grille">+ grille</span><br>
+				<span class="click-cours">+ cours</span><br>
+				<span class="click-nom">+ professeur.e.s</span><br>
+				<br>
+				<br>
+				<select class="comparer-horaires" style="display: block">
+					<option>+ comparer horaires</option>
+					<option value="GR451">+ GR451</option>
+					<option value="ID461">+ ID461</option>
+					<option value="CV361">+ CV361</option>
+				</select>
+
+			</div>
+		</div>
+
+		<div class="print-only titre-classe GR451Grand">
+			GR451<br>
+		</div>
+		<div class="print-only titre-classe plusGR451" style="margin-top:10cm;">
+
+			+ GR451<br>
+		</div>
+
+    <div class="semaine horaire">
+		<!-- AFFICHER L’HORAIRE -->
+		<div class="jour">
+			<div class="heure une vide"></div>
+			<div class="heure une vide">7h45</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">8h15</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">9h00</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">9h45</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">10h15</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">11h</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">11h45</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">12h30</div>
+			<div class="heure une vide">12h45</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">13h30</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">14h15</div>
+			<div class="heure une vide">14h30</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">15h15</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">16h</div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide">16h45</div>
+		</div>
+    </div><!-- fin AFFICHER L’HORAIRE -->
+
+	<div class="semaine grille">
+		<!-- AFFICHER L’HORAIRE -->
+		<div class="jour">
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+		</div>
+
+		<div class="jour">
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+		</div>
+
+		<div class="jour">
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+		</div>
+
+		<div class="jour">
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+		</div>
+
+		<div class="jour">
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+			<div class="heure une vide"></div>
+		</div>
+
+    </div><!-- fin AFFICHER LA GRILLE -->
+
+    <div id="GR451" class="semaine">
+		<!-- GRILLE HORAIRES -->
+
+		<!-- 1 -->
+		<div class="jour">
+			<div class="heure six vide"></div>
+			<div class="heure trois magenta"><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure deux vide"></div>
+			<div class="heure neuf magenta"><br><br><br><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure quatre vide"></div>
+			<div class="heure trois magenta"><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure une vide"></div>
+			<div class="heure neuf magenta"><br><br><br><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+		</div>
+
+		<!-- 2 -->
+		<div class="jour">
+			<div class="heure trois vide"></div>
+			<div class="heure six magenta"><br><br><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure deux vide"></div>
+			<div class="heure six magenta"><br><br><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure quatre vide"></div>
+			<div class="heure six magenta"><br><br><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure une vide"></div>
+			<div class="heure six magenta"><br><br><p class="cours">Graphisme</p><p class="nom">V. Brustaux</p><p class="classe">GR451</p></div>
+			<div class="heure trois vide"></div>
+		</div>
+
+		<!-- 3 -->
+		<div class="jour">
+			<div class="heure trois vide"></div>
+			<div class="heure six bleu"><br><br><p class="cours">Graphisme projets</p><p class="nom">J. Eichmann</p><p class="classe">GR451</p></div>
+			<div class="heure deux vide"></div>
+			<div class="heure six bleu"><br><br><p class="cours">Graphisme projets</p><p class="nom">J. Eichmann</p><p class="classe">GR451</p></div>
+			<div class="heure sept vide"></div>
+			<div class="heure trois magenta"><p class="cours">Histoire art-design graphique</p><p class="nom">C. Karatchian</p><p class="classe">GR451</p></div>
+			<div class="heure une vide"></div>
+			<div class="heure trois magenta"><p class="cours">Histoire art-design graphique</p><p class="nom">C. Karatchian</p><p class="classe">GR451</p></div>
+			<div class="heure six bleu"><br><br><p class="cours">Packaging</p><p class="nom">C. Buclin</p><p class="classe">GR451</p></div>
+		</div>
+
+		<!-- 4 -->
+		<div class="jour">
+			<div class="heure trentesept vide"></div>
+		</div>
+
+		<!-- 5 -->
+		<div class="jour">
+			<div class="heure quatorze vide"></div>
+			<div class="heure six bleu"><br><br><p class="cours">Informatique projets</p><p class="nom">S. Prud'homme</p><p class="classe">GR451</p></div>
+			<div class="heure quatre vide"></div>
+			<div class="heure trois magenta"><p class="cours">Multimédia</p><p class="nom">A. Cater</p><p class="classe">GR451</p></div>
+			<div class="heure une vide"></div>
+			<div class="heure neuf magenta"><br><br><br><p class="cours">Multimédia</p><p class="nom">A. Cater</p><p class="classe">GR451</p></div>
+		</div>
+
+
+    </div><!-- fin GR451-->
+
+
+	<div class="print-only titre-classe CV361Grand">
+		ID461<br>
+	</div>
+	<div class="print-only titre-classe plusCV361" style="margin-top: 10cm;">
+		ID461<br>
+	</div>
+	<div id="ID461" class="semaine">
+
+
+
+
+		<!-- GRILLE HORAIRES -->
+
+		<!-- 1 -->
+		<div class="jour">
+			<div class="heure trentesept vide"></div>
+		</div>
+
+		<!-- 2 -->
+		<div class="jour">
+			<div class="heure trois vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure deux vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure vingt vide"></div>
+		</div>
+
+		<!-- 3 -->
+		<div class="jour">
+			<div class="heure trois vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure deux vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure quatre vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure une vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure trois vide"></div>
+		</div>
+
+		<!-- 4 -->
+		<div class="jour">
+			<div class="heure trois vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure deux vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure quatre vide"></div>
+			<div class="heure six vert"></div>
+			<div class="heure une vide"></div>
+			<div class="heure neuf vert"></div>
+		</div>
+
+		<!-- 5 -->
+		<div class="jour">
+			<div class="heure trois vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure deux vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure quatre vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure une vide"></div>
+			<div class="heure six orange"></div>
+			<div class="heure trois vide"></div>
+		</div>
+
+	</div><!-- fin GR461-->
+
+					<div class="print-only titre-classe ID461Grand">
+						ID461<br></div>
+
+						<div class="print-only titre-classe plusID461" style="margin-top: 20cm;">
+							+ID461<br>
+						</div>
+
+
+	<div id="CV361" class="semaine">
+
+				<!-- GRILLE HORAIRES -->
+
+				<!-- 1 -->
+				<div class="jour">
+					<div class="heure onze vide"></div>
+					<div class="heure six rose"></div>
+					<div class="heure sept vide"></div>
+					<div class="heure trois rose"></div>
+					<div class="heure une vide"></div>
+					<div class="heure neuf rose"></div>
+				</div>
+
+				<!-- 2 -->
+				<div class="jour">
+					<div class="heure trois vide"></div>
+					<div class="heure six rose"></div>
+					<div class="heure deux vide"></div>
+					<div class="heure six rose"></div>
+					<div class="heure quatre vide"></div>
+					<div class="heure six rose"></div>
+					<div class="heure un vide"></div>
+					<div class="heure six rose"></div>
+				</div>
+
+				<!-- 3 -->
+				<div class="jour">
+					<div class="heure trois vide"></div>
+					<div class="heure six rose"></div>
+					<div class="heure deux vide"></div>
+					<div class="heure neuf rose"></div>
+					<div class="heure quatre vide"></div>
+					<div class="heure trois rose"></div>
+					<div class="heure une vide"></div>
+					<div class="heure trois rose"></div>
+					<div class="heure trois vide"></div>
+					<div class="heure trois rose"></div>
+				</div>
+
+				<!-- 4 -->
+				<div class="jour">
+					<div class="heure quatorze vide"></div>
+					<div class="heure trois rose"></div>
+					<div class="heure quatorze vide"></div>
+					<div class="heure trois rose"></div>
+					<div class="heure trois vide"></div>
+				</div>
+
+				<!-- 5 -->
+				<div class="jour">
+					<div class="heure trois vide"></div>
+					<div class="heure six lavande"></div>
+					<div class="heure deux vide"></div>
+					<div class="heure neuf lavande"></div>
+					<div class="heure quatre vide"></div>
+					<div class="heure trois lavande"></div>
+					<div class="heure une vide"></div>
+					<div class="heure neuf lavande"></div>
+				</div>
+
+
+
+		    </div>
+		</div>	<!-- fin semaine -->
+</div><!-- fin ID461-->
+
+<!-- SCRIPTS -->
+    <script>
+
+	    $('.select-classe-Graphisme').change(function(){
+			$('.semaine').hide();
+			$('#' +  $(this).val()).show();
+
+	    });
+
+		$('.comparer-horaires').change(function(){
+			$('#' +  $(this).val()).show();
+			$('#' +  $(this).val() + '.plusID461').show();
+		});
+
+
+		$('.plus').click(function(){
+			$('.menu').css("width", "15%");
+			$('.semaine').css("width", "65%");
+			$('.semaine').css("left", "15%");
+			$('.menu-text').show();
+			$('.plus').hide();
+			$('.moins').show();
+			$('.moins').css("margin-left", "105%");
+		});
+		$('.moins').click(function(){
+			$('.menu').css("width", "30px");
+			$('.menu-text').hide();
+			$('.plus').show();
+			$('.moins').hide();
+			$('.semaine').css("width", "80%");
+			$('.semaine').css("left", "0");
+		});
+		$('.click-cours').click(function(){
+			$('.cours').toggleClass("affiche-l-element");
+		});
+		$('.click-nom').click(function(){
+			$('.nom').toggleClass("affiche-l-element");
+		});
+		$('.click-horaire').click(function(){
+			$('.semaine.horaire').toggle();
+		});
+
+		$('.click-grille').click(function(){
+			$('.semaine.grille').toggle();
+		});
+
+
+	</script>
+
+</body>
+</html>

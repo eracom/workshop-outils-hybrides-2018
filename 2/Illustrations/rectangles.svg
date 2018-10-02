@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148mm" height="210mm" viewBox="0 0 419.53 595.28">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #141412;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="-439.53" width="419.53" height="595.28"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="419.53" height="595.28"/>
+    </clipPath>
+  </defs>
+  <title>Plan de travail 20</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g class="cls-2">
+      <rect class="cls-3" x="30.23" y="-64.31" width="5.55" height="740.75" transform="translate(-161.56 67.51) rotate(-33.04)"/>
+      <polygon class="cls-4" points="-115.59 -0.43 9.98 193.94 9.98 162.12 -115.59 -0.43"/>
+    </g>
+    <g class="cls-5">
+      <rect class="cls-4" x="-7.34" y="-29.73" width="136.54" height="246.79" transform="translate(-35.92 37.94) rotate(-27.04)"/>
+      <rect class="cls-4" x="89.69" y="146.91" width="164.15" height="327.77" transform="translate(-122.52 112.07) rotate(-27.04)"/>
+      <rect class="cls-4" x="227.24" y="193.2" width="136.54" height="246.79" transform="translate(17.03 -15.08) rotate(3.01)"/>
+      <rect class="cls-4" x="213.44" y="457.24" width="164.15" height="327.77" transform="translate(33.02 -14.66) rotate(3.01)"/>
+      <rect class="cls-4" x="-33.17" y="488.66" width="83.43" height="150.8" transform="translate(470.45 240.2) rotate(55.83)"/>
+      <rect class="cls-4" x="-79.05" y="393.53" width="100.3" height="200.28" transform="translate(395.79 240.32) rotate(55.83)"/>
+      <rect class="cls-4" x="251" y="-2.45" width="136.54" height="246.79" transform="translate(-20.08 158.37) rotate(-27.04)"/>
+      <rect class="cls-4" x="52.1" y="277.81" width="91.91" height="183.53" transform="translate(-157.3 84.98) rotate(-27.04)"/>
+      <rect class="cls-4" x="377.81" y="-59.23" width="136.54" height="246.79" transform="translate(358.58 506.26) rotate(-86.99)"/>
+      <rect class="cls-4" x="104.3" y="563.38" width="164.15" height="327.77" transform="translate(-310.27 164.24) rotate(-27.04)"/>
+    </g>
+  </g>
+</svg>

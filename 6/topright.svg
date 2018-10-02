@@ -1,0 +1,20 @@
+<svg id="svg8" xmlns="http://www.w3.org/2000/svg" width="9.993mm" height="10.31mm" viewBox="0 0 28.326 29.226">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <title>topright</title>
+  <rect class="cls-1" x="638.56" y="17.189" width="3.252" height="20.828" transform="translate(45.477 -612.586) rotate(90)"/>
+  <rect class="cls-1" width="3.252" height="20.828"/>
+  <g id="g839">
+    <path id="path835" class="cls-2" d="M623.937,20.4V0" transform="translate(-622.312 -0.003)"/>
+    <path id="path837" class="cls-2" d="M630.137,27.6h20.5" transform="translate(-622.312 -0.003)"/>
+  </g>
+</svg>

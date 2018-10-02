@@ -1,0 +1,22 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 419.53 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #141412;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+    </style>
+  </defs>
+  <title>Plan de travail 2</title>
+  <rect class="cls-1" x="11.34" y="11.72" width="217.51" height="188.9"/>
+  <rect class="cls-1" x="235.94" y="11.72" width="172.25" height="188.7"/>
+  <rect class="cls-1" x="10.86" y="207.51" width="179.68" height="57.27"/>
+  <rect class="cls-1" x="197.63" y="207.51" width="210.56" height="57.27"/>
+  <rect class="cls-1" x="10.86" y="271.86" width="214.45" height="242.03"/>
+  <rect class="cls-1" x="232.22" y="271.86" width="175.97" height="242.03"/>
+  <rect class="cls-1" x="10.86" y="520.51" width="127.56" height="64.21"/>
+  <rect class="cls-1" x="280.63" y="520.51" width="127.56" height="64.21"/>
+  <rect class="cls-1" x="145.75" y="520.98" width="127.56" height="64.21"/>
+</svg>
