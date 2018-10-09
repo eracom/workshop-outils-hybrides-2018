@@ -1,0 +1,21 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" width="188.15mm" height="283.91mm" viewBox="0 0 533.34 804.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #141412;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>traits</title>
+  <line class="cls-1" x1="50.2" y1="0.18" x2="50.3" y2="50.16"/>
+  <line class="cls-1" x1="50.34" y1="50.21" y2="50.21"/>
+  <line class="cls-1" x1="483.14" x2="483.04" y2="49.99"/>
+  <line class="cls-1" x1="483" y1="50.04" x2="533.34" y2="50.04"/>
+  <line class="cls-1" x1="50.79" y1="804.66" x2="50.89" y2="754.68"/>
+  <line class="cls-1" x1="50.93" y1="754.62" x2="0.58" y2="754.63"/>
+  <line class="cls-1" x1="482.29" y1="804.79" x2="482.19" y2="754.81"/>
+  <line class="cls-1" x1="482.15" y1="754.75" x2="532.5" y2="754.75"/>
+</svg>

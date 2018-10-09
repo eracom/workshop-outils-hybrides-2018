@@ -1,0 +1,267 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body { margin:0; padding:0; }
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/*lien vers typo Google Font*/
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+/* liens vers la typo */
+@font-face {
+    font-family: 'Gap Sans';
+    src: url('fonts/gapsans-webfont.woff') format('woff'),
+         url('fonts/gapsans-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'League Gothic';
+    font-size: 40px;
+    /*padding: 20px; */
+	width: 100%;
+}
+img.t40 {
+	max-width: 40px;
+}
+img.t400 {
+	max-width: 400px;
+}
+
+.text-zootitre {
+    font-family: 'Oswald', sans-serif;
+    font-style: oblique;
+    color: white;
+    font-size:80px;
+    margin-top: 120px;
+
+
+
+}
+
+.text-zoodate {
+
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size:50px;
+
+    }
+
+.text-zoolineup {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size:20pt;
+    line-height: 30pt;
+
+}
+
+
+.text-reztitre {
+    font-family: 'Arvo', serif;
+
+    color: #575756;
+    font-size:75px;
+    margin-top: 120px;
+
+
+}
+
+.text-rezdate {
+
+    font-family: 'Arvo', serif;
+    color: #575756;
+    font-size:50px;
+
+    }
+
+.text-rezlineup {
+    font-family: 'Arvo', serif;
+    color: #575756;
+    font-size:18pt;
+    align-items: center;
+    line-height: 21pt;
+
+}
+
+.text-tutitre {
+    font-family: 'Roboto' , sans-serif;
+    font-style: oblique;
+    color: #0000FF;
+    font-size:80px;
+    margin-top: 120px;
+    line-height: 30pt;
+
+}
+
+.text-tudate {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique ;
+    color: #0000FF;
+    font-size:50px;
+
+    }
+
+.text-tulineup {
+    font-family: 'Roboto', sans-serif;
+    color: #0000FF;
+    font-size: 20pt;
+    font-style: oblique;
+    align-items: center;
+    line-height: 20pt;
+
+}
+
+.text-spoktitre {
+    font-family: 'Helvetica', sans-serif;
+    color: black;
+    font-size: 70px;
+    margin-top: 120px;
+    line-height: 30pt;
+
+
+}
+
+.text-spokdate {
+
+    font-family: 'Helvetica', sans-serif;
+font-style: normal;
+    color: black;
+    font-size:50px;
+
+    }
+
+.text-spoklineup {
+    font-family: 'Helvetica', sans-serif;
+    color: black;
+    font-size: 20pt;
+    align-items: center;
+    line-height: 20pt;
+
+}
+
+.images-gauche {
+	width: 200px;
+    margin-top: 30px;
+}
+.images-gauche img {
+	float: left;
+	margin-top: 30px;
+}
+
+.images-droite {
+	position: absolute;
+	width: 200px;
+	top: 0;
+	right: 0;
+}
+.images-droite img {
+	float: right;
+	margin-top: 30px;
+}
+
+.traits {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.canvas {
+    border: 0px solid blue;
+    position: absolute;
+    width: 430px;
+    height: 600px;
+    margin-top: 50vh;
+    top: -300px;
+    margin-left: 50%;
+    left: -215px;
+}
+.zone-travail {
+	border: 0px solid yellow;
+    position: absolute;
+    top: 0px;
+    left: -500px;
+    width: 1450px;
+    height: 90vh;
+    overflow: scroll;
+
+
+}
+.zone-outils {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+
+
+.BGZOO,
+.BGREZ,
+.BGTU,
+.BGSPOK {
+	height: 100vh;
+	position: relative;
+}
+.BGZOO {	background-color: black;}
+.BGREZ {	background-color: #D3D3D3;}
+.BGTU {		background-color: #F7BEBC;}
+.BGSPOK {	background-color: white;}
+
+
+
+.glissable:hover {
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: blue;
+    }
+    .screen-only {
+        display: none;
+    }
+    a {
+        color: black;
+    }
+	.canvas {
+		overflow: hidden;
+	}
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}
